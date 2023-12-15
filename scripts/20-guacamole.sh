@@ -1,15 +1,9 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
-# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
-# Data de criação: 03/12/2021
-# Data de atualização: 29/04/2023
-# Versão: 0.12
+# Autor: Wellington infra
+# Github: https://github.com/WellingtonBeijo3030
+# Data de criação: 15/12/2023
+# Data de atualização: 15/12/2023
+# Versão: 0.1
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
 # Testado e homologado para a versão do Apache Guacamole Server 1.5.x e Cliente 1.5.x
 #
@@ -39,8 +33,8 @@
 #			Fuso Horário: America - São Paulo
 #		Alterar Senha
 #			Senha Atual: guacadmin
-#			Nova Senha: pti@2018
-#			Confirme a Nova Senha: pti@2018
+#			Nova Senha: 1000metas
+#			Confirme a Nova Senha: 100metas
 #		<Alterar senha>
 #		Método de Entrada Padrão
 #			Nenhum: ON (Default)
@@ -74,14 +68,14 @@
 #	Usuários
 #		<Novo Usuário>
 #			Editar Usuário
-#				Usuário: vaamonde
-#				Senha: pti@2018
-#				Repita a senha: pti@2018
+#				Usuário: suporte
+#				Senha: 1000metas
+#				Repita a senha: 1000metas
 #			Perfil
-#				Nome Completo: Robson vaamonde
-#				Endereço de E-mail: robsonvaamonde@gmail.com
-#				Organização: Bora para Prática
-#				Função: Adm. de Redes
+#				Nome Completo: Wellington
+#				Endereço de E-mail: infra4@irmaosgoncalves.com.br
+#				Organização: SUPERMERCADO IRMAOS GONCALVES
+#				Função: T.I INFRA-ESTRUTURA
 #			Restrições de Conta
 #				Login desativado: Off
 #				Senha expirada: Off
