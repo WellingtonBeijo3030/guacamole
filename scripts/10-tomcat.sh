@@ -1,15 +1,9 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
-# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
-# Data de criação: 19/10/2021
-# Data de atualização: 30/04/2023
-# Versão: 0.13
+# Autor: Wellington infra
+# Github: https://github.com/WellingtonBeijo3030
+# Data de criação: 15/12/2023 16:33
+# Data de atualização: 15/12/2023
+# Versão: 0.1
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
 # Testado e homologado para a versão do Tomcat v9.0.x, OpenJDK v11.x, OpenJRE v11.x
 #
