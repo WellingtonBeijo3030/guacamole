@@ -3,7 +3,7 @@
 # Github: https://github.com/WellingtonBeijo3030
 # Data de criação: 15/12/2023 16:33
 # Data de atualização: 15/12/2023
-# Versão: 0.1
+# Versão: 0.10
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
 # Testado e homologado para a versão do Tomcat v9.0.x, OpenJDK v11.x, OpenJRE v11.x
 #
