@@ -142,27 +142,12 @@ source 00-parametros.sh
 #
 # Configuração da variável de Log utilizado nesse script
 LOG=$LOGSCRIPT
-#
-# Verificando se o usuário é Root e se a Distribuição é >= 22.04.x 
-# [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria 
-# dos erros comuns na execução
-clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "22.04" ]
-	then
-		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 22.04.x, continuando com o script..."
-		sleep 5
-	else
-		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 22.04.x ($UBUNTU)"
-		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
-		echo -e "Execute novamente o script para verificar o ambiente."
-		exit 1
-fi
 
 # Verificando se a porta 4822 está sendo utilizada no servidor Ubuntu Server
 # [ ] = teste de expressão, == comparação de string, exit 1 = A maioria dos erros comuns na execução,
 # $? código de retorno do último comando executado, ; execução de comando, 
 # opção do comando nc: -v (verbose), -z (DCCP mode), &> redirecionador de saída de erro
+clear
 if [ "$(nc -vz 127.0.0.1 $PORTGUACAMOLE &> /dev/null ; echo $?)" == "0" ]
 	then
 		echo -e "A porta: $PORTGUACAMOLE já está sendo utilizada nesse servidor."
