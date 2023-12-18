@@ -1,16 +1,13 @@
-Autor: Robson Vaamonde<br>
-Procedimentos em TI: http://procedimentosemti.com.br<br>
-Bora para Prática: http://boraparapratica.com.br<br>
-Robson Vaamonde: http://vaamonde.com.br<br>
-Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
-Facebook Bora para Prática: https://www.facebook.com/BoraParaPratica<br>
-Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
-YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
-LinkedIn Robson Vaamonde: https://www.linkedin.com/in/robson-vaamonde-0b029028/<br>
-Github Procedimentos em TI: https://github.com/vaamonde<br>
-Data de criação: 23/08/2021<br>
-Data de atualização: 30/08/2021<br>
-Versão: 0.2<br>
+ Autor: Wellington 
+ Dep: Infra T.I 
+ cargo: Analista de Sistema  
+ Site: https://www.irmaosgoncalves.com.br 
+ Facebook: https://www.facebook.com/supermercadoig 
+ YouTube: https://www.youtube.com/@supermercadoig 
+ Instagram: https://www.instagram.com/irmaosgoncalves 
+ Data de criação: 15/12/2023 
+ Data de atualização: 16/12/2023 
+ Versão: 0.1 
 Testado e homologado no Raspberry Pi 3 B e Ubuntu Server 20.04.x LTS ARM x64 Bits
 
 26/08/2021 - Lançamento da versão do Ubuntu 20.04.3 LTS: https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.3<br>

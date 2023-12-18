@@ -1,9 +1,13 @@
-#!/bin/bash
-# Autor: Wellington infra
-# Github: https://github.com/WellingtonBeijo3030
-# Data de criação: 15/12/2023 16:33
-# Data de atualização: 15/12/2023
-# Versão: 0.1
+# Autor: Wellington 
+# Dep: Infra T.I 
+# cargo: Analista de Sistema  
+# Site: https://www.irmaosgoncalves.com.br 
+# Facebook: https://www.facebook.com/supermercadoig 
+# YouTube: https://www.youtube.com/@supermercadoig 
+# Instagram: https://www.instagram.com/irmaosgoncalves 
+# Data de criação: 15/12/2023 
+# Data de atualização: 16/12/2023 
+# Versão: 0.1 
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 # Testado e homologado para a versão do ISC DHCP Server v4.4.x
 # Testado e homologado para a versão do Bind DNS Sever v9.16.x

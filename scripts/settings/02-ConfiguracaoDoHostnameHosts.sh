@@ -1,15 +1,14 @@
 #!/bin/bash
-# Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
-# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
-# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
-# Github: https://github.com/vaamonde
-# Data de criação: 10/10/2021
-# Data de atualização: 20/01/2022
-# Versão: 0.20
+# Autor: Wellington 
+# Dep: Infra T.I 
+# cargo: Analista de Sistema  
+# Site: https://www.irmaosgoncalves.com.br 
+# Facebook: https://www.facebook.com/supermercadoig 
+# YouTube: https://www.youtube.com/@supermercadoig 
+# Instagram: https://www.instagram.com/irmaosgoncalves 
+# Data de criação: 15/12/2023 
+# Data de atualização: 16/12/2023 
+# Versão: 0.1 
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 #
 # Hostname: é usado para exibir o nome DNS do sistema e para exibir ou defina seu nome 
