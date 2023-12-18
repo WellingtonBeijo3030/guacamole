@@ -1,5 +1,6 @@
 #!/bin/bash
 # Autor: Wellington 
+<<<<<<< HEAD
 # Dep: Infra T.I 
 # cargo: Analista de Sistema  
 # Site: https://www.irmaosgoncalves.com.br 
@@ -10,6 +11,18 @@
 # Data de atualização: 16/12/2023 
 # Versão: 0.1 
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+=======
+# Dep: Infra T.I
+# cargo: Analista de Sistema 
+# Site: https://www.irmaosgoncalves.com.br
+# Facebook: https://www.facebook.com/supermercadoig
+# YouTube: https://www.youtube.com/@supermercadoig
+# Instagram: https://www.instagram.com/irmaosgoncalves
+# Data de criação: 15/12/2023
+# Data de atualização: 16/12/2023
+# Versão: 0.1
+# Testado e homologado para a versão do Ubuntu Server 22.04.x LTS x64x
+>>>>>>> b727c532c5b39b71c4baf5236d25ac30dc5fa3f7
 # Testado e homologado para a versão do Apache Guacamole Server 1.5.x e Cliente 1.5.x
 #
 # O Apache Guacamole é um gateway de desktop remoto sem cliente, ele suporta protocolos 
@@ -142,27 +155,12 @@ source 00-parametros.sh
 #
 # Configuração da variável de Log utilizado nesse script
 LOG=$LOGSCRIPT
-#
-# Verificando se o usuário é Root e se a Distribuição é >= 20.04.x 
-# [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria 
-# dos erros comuns na execução
-clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
-	then
-		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 20.04.x, continuando com o script..."
-		sleep 5
-	else
-		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 20.04.x ($UBUNTU)"
-		echo -e "Caso você não tenha executado o script com o comando: sudo -i"
-		echo -e "Execute novamente o script para verificar o ambiente."
-		exit 1
-fi
 
 # Verificando se a porta 4822 está sendo utilizada no servidor Ubuntu Server
 # [ ] = teste de expressão, == comparação de string, exit 1 = A maioria dos erros comuns na execução,
 # $? código de retorno do último comando executado, ; execução de comando, 
 # opção do comando nc: -v (verbose), -z (DCCP mode), &> redirecionador de saída de erro
+clear
 if [ "$(nc -vz 127.0.0.1 $PORTGUACAMOLE &> /dev/null ; echo $?)" == "0" ]
 	then
 		echo -e "A porta: $PORTGUACAMOLE já está sendo utilizada nesse servidor."
@@ -212,7 +210,7 @@ if [ -f $LOG ]
 		sleep 5
 fi
 #
-# Script de instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 20.04.x
+# Script de instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 22.04.x
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # opção do comando hostname: -d (domain)
 # opção do comando date: + (format), %d (day), %m (month), %Y (year 1970), %H (hour 24), %M (minute 60)
@@ -221,7 +219,7 @@ echo -e "Início do script $0 em: $(date +%d/%m/%Y-"("%H:%M")")\n" &>> $LOG
 clear
 echo
 #
-echo -e "Instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 20.04.x\n"
+echo -e "Instalação do Apache Guacamole Server e Client no GNU/Linux Ubuntu Server 22.04.x\n"
 echo -e "Porta padrão utilizada pelo Apache Tomcat9...: TCP 8443"
 echo -e "Porta padrão utilizada pelo Guacamole Server.: TCP 4822\n"
 echo -e "Após a instalação do Apache Guacamole acesse a URL: https://$(hostname -d | cut -d' ' -f1):8443/guacamole\n"

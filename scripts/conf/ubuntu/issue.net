@@ -4,6 +4,7 @@
 ##          Acesso ao Servidor Acesso Remoto Guacamole                  ##
 ##########################################################################
 **************************************************************************
+<<<<<<< HEAD
                                                                              
                                                                               
 █████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗
@@ -16,13 +17,23 @@
                               ╚═╝ ╚═════╝                                     
 █████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗
 ╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝
+=======
+>>>>>>> b727c532c5b39b71c4baf5236d25ac30dc5fa3f7
 
+██╗    ██╗███████╗██╗     ██╗     ██╗███╗   ██╗ ██████╗████████╗ ██████╗ ███╗   ██╗
+██║    ██║██╔════╝██║     ██║     ██║████╗  ██║██╔════╝╚══██╔══╝██╔═══██╗████╗  ██║
+██║ █╗ ██║█████╗  ██║     ██║     ██║██╔██╗ ██║██║  ███╗  ██║   ██║   ██║██╔██╗ ██║
+██║███╗██║██╔══╝  ██║     ██║     ██║██║╚██╗██║██║   ██║  ██║   ██║   ██║██║╚██╗██║
+╚███╔███╔╝███████╗███████╗███████╗██║██║ ╚████║╚██████╔╝  ██║   ╚██████╔╝██║ ╚████║
+ ╚══╝╚══╝ ╚══════╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝
+                                                                                   
 AVISO: O acesso nao autorizado a este sistema e proibido e sera processado
 conforme a lei.  Ao se conectar nesse sistema,  voce concorda que todas as
 suas acoes  serao monitoradas, caso  seja  verificado  o uso  indevido dos 
 recursos de acesso remoto nesse servidor, sera aplicado a lei vigente  com
 base nas diretivas da LGPD (Lei Geral de Protecao de Dados n: 13.709/2018)
 
+<<<<<<< HEAD
 Autor: Wellington
 Dep: Infra T.I 
 Cargo: Analista de Sistema  
@@ -33,6 +44,18 @@ Instagram: irmaosgoncalves
 Data de criação: 15/12/2023 
 Data de atualização: 16/12/2023 
 Versão: 0.1 
+=======
+ Autor: Wellington 
+ Dep: Infra T.I
+ cargo: Analista de Sistema 
+ Site: irmaosgoncalves
+ Facebook: supermercadoig
+ YouTube: supermercadoig
+ Instagram: irmaosgoncalves
+ Data de criação: 15/12/2023
+ Data de atualização: 16/12/2023
+ Versão: 0.1
+>>>>>>> b727c532c5b39b71c4baf5236d25ac30dc5fa3f7
 
 **************************************************************************
 ##########################################################################

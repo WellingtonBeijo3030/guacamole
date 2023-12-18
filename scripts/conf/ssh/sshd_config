@@ -1,4 +1,5 @@
 # Autor: Wellington 
+<<<<<<< HEAD
 # Dep: Infra T.I 
 # cargo: Analista de Sistema  
 # Site: https://www.irmaosgoncalves.com.br 
@@ -8,6 +9,17 @@
 # Data de criação: 15/12/2023 
 # Data de atualização: 16/12/2023 
 # Versão: 0.1 
+=======
+# Dep: Infra T.I
+# cargo: Analista de Sistema 
+# Site: https://www.irmaosgoncalves.com.br
+# Facebook: https://www.facebook.com/supermercadoig
+# YouTube: https://www.youtube.com/@supermercadoig
+# Instagram: https://www.instagram.com/irmaosgoncalves
+# Data de criação: 15/12/2023
+# Data de atualização: 16/12/2023
+# Versão: 0.2
+>>>>>>> b727c532c5b39b71c4baf5236d25ac30dc5fa3f7
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 # Testado e homologado para a versão do OpenSSH Server v8.2.x
 #
@@ -24,7 +36,7 @@ Protocol 2
 #
 # Endereço IPv4 do Servidor de OpenSSH que está liberado para permitir conexões remotas 
 # via protocolo SSH
-ListenAddress 172.16.1.20
+ListenAddress 192.168.1.100
 #
 # Métodos de Autenticação do OpenSSH, utilizar chaves públicas e autenticação por senha
 # Por padrão o Servidor de OpenSSH não trabalhar com Chaves Pública para autenticação, 
@@ -84,13 +96,13 @@ PermitRootLogin no
 #
 # Usuários que tem permissão de acesso remoto ao Servidor de OpenSSH, separados por 
 # espaço, deve existir no servidor. Usuários listados no arquivo /etc/passwd
-AllowUsers vaamonde
+AllowUsers infra
 #
 # Grupos que tem permissão de acesso remoto ao Servidor de OpenSSH, cuidado, se você 
 # usar a variável AllowUsers o grupo padrão do usuário precisa está liberado na linha 
 # AllowGroups, separados por espaço, deve existir no servidor. Grupos listados no 
 # arquivo /etc/group
-AllowGroups vaamonde
+AllowGroups infra
 #
 # Usuários que não tem permissão de acesso remoto ao Servidor de OpenSSH, separados 
 # por espaço, deve existir no servidor. Usuários listados no arquivo /etc/passwd
