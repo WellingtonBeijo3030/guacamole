@@ -35,7 +35,7 @@ sudo cat /etc/timezone
 sudo cat /etc/systemd/timesyncd.conf
 sudo vim /etc/systemd/timesyncd.conf
 	[Time]
-	NTP=a.st1.ntp.br
+	NTP=10.0.2.237
 	FallbackNTP=a.ntp.br
 sudo systemctl restart systemd-timesyncd.service
 sudo systemctl status systemd-timesyncd.service
