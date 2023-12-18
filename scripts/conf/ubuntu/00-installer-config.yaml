@@ -7,7 +7,7 @@
 # Instagram: https://www.instagram.com/irmaosgoncalves 
 # Data de criação: 15/12/2023 
 # Data de atualização: 16/12/2023 
-# Versão: 0.1 
+# Versão: 0.1.1 
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 # Mais informações veja o arquivo: scripts/settings/04-ConfiguracaoDoNetplan.sh
 # Após as configuração do endereço IPv4 digitar o comando: netplan --debug apply
