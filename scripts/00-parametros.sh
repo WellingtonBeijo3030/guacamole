@@ -1,16 +1,5 @@
 #!/bin/bash
 # Autor: Wellington 
-<<<<<<< HEAD
-# Dep: Infra T.I 
-# cargo: Analista de Sistema  
-# Site: https://www.irmaosgoncalves.com.br 
-# Facebook: https://www.facebook.com/supermercadoig 
-# YouTube: https://www.youtube.com/@supermercadoig 
-# Instagram: https://www.instagram.com/irmaosgoncalves 
-# Data de criação: 15/12/2023 
-# Data de atualização: 16/12/2023 
-# Versão: 0.1 
-=======
 # Dep: Infra T.I
 # cargo: Analista de Sistema 
 # Site: https://www.irmaosgoncalves.com.br
@@ -19,8 +8,7 @@
 # Instagram: https://www.instagram.com/irmaosgoncalves
 # Data de criação: 15/12/2023
 # Data de atualização: 16/12/2023
-# Versão: 0.1
->>>>>>> b727c532c5b39b71c4baf5236d25ac30dc5fa3f7
+# Versão: 0.1.1
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 #
 # Parâmetros (variáveis de ambiente) utilizados nos scripts de instalação dos Serviços de Rede
